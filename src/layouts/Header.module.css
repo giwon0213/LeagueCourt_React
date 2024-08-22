@@ -1,0 +1,40 @@
+.container {
+
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+
+}
+
+.logoImg {
+    
+    height: 40px;
+    width: 240px;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.loginButton {
+
+    color: white;
+    font-family: var(--defulat-font);
+
+}
+
+.signUpButton {
+
+    color: white;
+    font-family: var(--defulat-font);
+
+}
+
+.headerButton {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+
+}
