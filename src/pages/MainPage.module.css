@@ -6,9 +6,10 @@
     /* 최소 높이를 100%로 설정하여 유동적으로 변경되도록 함 */
 
     background-color: black;
-    position: absolute;
+
     flex-direction: column;
     align-items: center;
+    /* position: absolute; */
 
 }
 
@@ -24,7 +25,7 @@
 
 }
 
-.participateButton {
+.joinButton {
 
     background-color: white;
     display: flex;
@@ -39,23 +40,113 @@
 .boardContainer {
     display: flex;
     justify-content: space-between;
-    width: 1100px;
+    width: 1400px;
     padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 .bestBoard {
 
     background-color: white;
     height: 400px;
-    width: 500px;
+    width: 600px;
     border-radius: 20px;
 
 }
 
-.patchNote {
+.attentionChamps {
 
     background-color: white;
     height: 400px;
-    width: 500px;
+    width: 600px;
     border-radius: 20px;
+}
+
+.boardTitle {
+
+    font-family: var(--defulat-font);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.thumbnali>img {
+
+    width: 100px;
+    height: 50px;
+}
+
+.boardContent {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.boardNum {
+
+    padding: 20px;
+}
+
+.boardText {
+
+    padding: 20px;
+}
+
+.chmpsSub {
+
+    display: flex;
+    border-bottom: 1px solid rgba(155, 155, 155, 155);
+    padding-bottom: 15px;
+    justify-content: space-between;
+
+
+}
+
+.champsTitle {
+
+    font-family: var(--defulat-font);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.winRate {
+
+    margin-left: 200px;
+}
+
+.banRate {
+
+    margin-right: 40px;
+
+}
+
+.champDetails {
+
+    display: flex;
+    padding: 10px;
+
+}
+
+.champName {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    margin-left: 10px;
+
+
+}
+
+.champWinRate {
+    margin-right: 131px;
+}
+
+.champPickRate {
+
+    margin-right: 134px;
 }

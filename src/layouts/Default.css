@@ -5,21 +5,22 @@ html,
 body {
 	width: 100vw;
 	height: 100vh;
-	
+
 	-ms-overflow-style: none;
-	}
-	
-	::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar {
 	display: none;
-	}
+}
 
-	/*특정 부분 스크롤바 없애기*/
+/*특정 부분 스크롤바 없애기*/
 
-	.box{
+.box {
 	-ms-overflow-style: none;
-	}
-	.box::-webkit-scrollbar{
-	display:none;
+}
+
+.box::-webkit-scrollbar {
+	display: none;
 
 
 
@@ -140,7 +141,7 @@ menu,
 nav,
 section {
 	display: block;
-	
+
 }
 
 div,
