@@ -58,10 +58,23 @@ function MainPage() {
                         </div>
 
                         <div className={style.champDetails}>
-                            <div className={style.champName}>세나</div>
+                            <div className={style.champName}>트위스티드 페이트</div>
                             <div className={style.champWinRate}>55.5</div>
+                            <div className={style.champPickRate}>53.8</div>
+                            <div className={style.champBan}>63.1</div>
+                        </div>
+
+                        <div className={style.champDetails}>
+                            <div className={style.champName}>아칼리</div>
+                            <div className={style.champWinRate}>55.5</div>
+                            <div className={style.champPickRate}>12.8</div>
+                            <div className={style.champBan}>31.1</div>
+                        </div>
+                        <div className={style.champDetails}>
+                            <div className={style.champName}>아트록스</div>
+                            <div className={style.champWinRate}>11.5</div>
                             <div className={style.champPickRate}>40.8</div>
-                            <div className={style.champBan}>82.1</div>
+                            <div className={style.champBan}>7.1</div>
                         </div>
 
 

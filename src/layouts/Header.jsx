@@ -1,7 +1,8 @@
 
 import logo from "../images/headerLogo.png"
 import style from "./Header.module.css"
-import { useNavigate} from "react-router-dom";
+import { useNavigate , Link} from "react-router-dom";
+
 
 function Header() {
 
@@ -17,8 +18,8 @@ function Header() {
 
                     <div className={style.headerButton}>
 
-                        <button className={style.loginButton}> 로그인 </button>
-                        <button className={style.signUpButton}> 회원가입 </button>
+                        <Link to='/login' className={style.loginButton} > 로그인 </Link>
+                        <Link to='/signUp' className={style.signUpButton}> 회원가입 </Link>
 
                     </div>
                 
